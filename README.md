@@ -28,24 +28,18 @@ This project is part of the **BBM204 Software Practicum II** course at Hacettepe
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/eco-infrastructure-optimization.git
-    cd eco-infrastructure-optimization
+    git clone https://github.com/EfeAydinalp/EcoFriendlyPowerGridOptimization
+    cd EcoFriendlyPowerGridOptimization
     ```
 
-2. **Compile the Java files**:
+
+2. **Your code will be compiled and run as follows:**:
     ```bash
-    javac *.java
+    javac *.java -d .
+    java Main <demandSchedule> <ESVMaintenance>
     ```
 
-3. **Run the Power Grid Optimization program**:
-    ```bash
-    java PowerGridOptimization <path_to_demandSchedule.dat>
-    ```
 
-4. **Run the ESV Deployment program**:
-    ```bash
-    java ESVDeployment <path_to_ESVMaintenance.dat>
-    ```
 
 ### Usage Examples
 
